@@ -4,7 +4,7 @@ module.exports = {
   entry: 'src/index.js',
   output: {
     dir: 'docs',
-    publicUrl: '/linkage/'
+    // publicUrl: '/linkage/'
   },
   chainWebpack(config) {
     config.resolve.alias.set('@comps', path.resolve(__dirname, 'src/comps'))
